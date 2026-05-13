@@ -1,0 +1,833 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walkthrough — Mixtape Guide</title>
+  <meta name="description" content="Complete 30-chapter walkthrough for Mixtape with interactive progress tracking, all collectibles, and trophy guides." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🎵</div>
+        <span class="logo-text">MIX<span>TAPE</span> GUIDE</span>
+      </a>
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="walkthrough.html" class="active">Walkthrough</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="tips.html">Tips &amp; Trophies</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- TAPE STRIP -->
+  <div class="tape-strip">
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Walkthrough</div>
+      <h1>COMPLETE <span class="text-accent">WALKTHROUGH</span></h1>
+      <p>All 30 chapters with interactive progress tracking. Check off items as you complete them — your progress is saved automatically.</p>
+    </div>
+  </section>
+
+  <!-- PROGRESS BAR -->
+  <div class="progress-container">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="progress-text"><span id="progress-count">0</span> / <span id="progress-total">0</span> items completed</div>
+    <button class="btn btn-outline" id="reset-progress" style="margin-top:0.5rem;font-size:0.8rem;padding:0.4rem 0.8rem;">Reset Progress</button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="page-wrapper">
+
+    <!-- GUIDE INFO -->
+    <div class="sidebar-box" style="position:static;max-width:100%;margin-bottom:2rem;">
+      <h4>📋 Guide Overview</h4>
+      <p style="color:var(--text-secondary);font-size:0.9rem;">This walkthrough covers all 30 chapters, every interaction for the "Front to Back" trophy, and all minigame achievements. Playtime: ~3-4 hours.</p>
+      <p style="color:var(--text-secondary);font-size:0.9rem;margin-top:0.5rem;"><strong>Chapter Select:</strong> Available after completing any chapter. The game tracks interactions across replays.</p>
+    </div>
+
+    <!-- ACT 1 -->
+    <section id="act-1">
+      <h2 class="section-title">Act 1: <span>Rockford's Place</span></h2>
+      <p class="section-sub">Chapters 1-10 • "Goodbye, Stacey's Room" Trophy</p>
+
+      <!-- Chapter 1 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">01</div>
+          <div class="chapter-info">
+            <h3>Skate to Rockford's</h3>
+            <p>🏆 Thrashed — Ollie over any car</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>The game opens with a skateboarding sequence. Navigate the streets while avoiding obstacles.</p>
+          <h4>Trophy: Thrashed</h4>
+          <p>Press jump to ollie over a vehicle. Smaller cars are easier. If you crash, the game rewinds so you can retry. More skating sections appear later if you miss it here.</p>
+          <div class="checklist" data-chapter="1">
+            <label><input type="checkbox" data-item="1-1"> Complete the skating section</label>
+            <label><input type="checkbox" data-item="1-2"> 🏆 Ollie over a car (Thrashed)</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 2 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">02</div>
+          <div class="chapter-info">
+            <h3>Rockford's House</h3>
+            <p>First exploration area — many interactions</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Items with white dots are interactable. Once examined, the dot becomes hollow.</p>
+          <h4>Hallway Area</h4>
+          <div class="checklist" data-chapter="2">
+            <label><input type="checkbox" data-item="2-1"> ⚠️ Closed door (Debbie's room) — EASY TO MISS!</label>
+            <label><input type="checkbox" data-item="2-2"> Painting on the wall</label>
+            <label><input type="checkbox" data-item="2-3"> Radio on the shelf</label>
+          </div>
+          <h4>Bathroom Area</h4>
+          <div class="checklist" data-chapter="2">
+            <label><input type="checkbox" data-item="2-4"> Framed picture</label>
+            <label><input type="checkbox" data-item="2-5"> Wall painting</label>
+            <label><input type="checkbox" data-item="2-6"> Items on the counter</label>
+          </div>
+          <h4>Bedroom (facing friends)</h4>
+          <div class="checklist" data-chapter="2">
+            <label><input type="checkbox" data-item="2-7"> CD on the shelf</label>
+            <label><input type="checkbox" data-item="2-8"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="2-9"> Record player</label>
+            <label><input type="checkbox" data-item="2-10"> Skateboard</label>
+            <label><input type="checkbox" data-item="2-11"> Keyboard pencil case</label>
+            <label><input type="checkbox" data-item="2-12"> Talk to Slater (on bed)</label>
+          </div>
+          <h4>Bedroom (facing door)</h4>
+          <div class="checklist" data-chapter="2">
+            <label><input type="checkbox" data-item="2-13"> Tapes near the TV</label>
+            <label><input type="checkbox" data-item="2-14"> Cassette player on shelf</label>
+            <label><input type="checkbox" data-item="2-15"> CDs on shelf</label>
+            <label><input type="checkbox" data-item="2-16"> Interact with glowing cassette on desk</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 3 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">03</div>
+          <div class="chapter-info">
+            <h3>The Kiss</h3>
+            <p>🏆 French Connection — Kiss for 60 seconds</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Stay in the kissing minigame for 60 seconds. Trophy pops when you exit.</p>
+          <div class="checklist" data-chapter="3">
+            <label><input type="checkbox" data-item="3-1"> 🏆 Kiss for 60 seconds (French Connection)</label>
+            <label><input type="checkbox" data-item="3-2"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="3-3"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="3-4"> Examine photos on closet</label>
+            <label><input type="checkbox" data-item="3-5"> Interact with VCR on TV</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 4 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">04</div>
+          <div class="chapter-info">
+            <h3>Headbanging</h3>
+            <p>Rhythm minigame + photo hunt</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Rock out in the headbanging minigame, then find scattered photos.</p>
+          <div class="checklist" data-chapter="4">
+            <label><input type="checkbox" data-item="4-1"> Complete headbanging minigame</label>
+            <label><input type="checkbox" data-item="4-2"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="4-3"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="4-4"> Examine photo string on wall</label>
+            <label><input type="checkbox" data-item="4-5"> Find photo below the string</label>
+            <label><input type="checkbox" data-item="4-6"> Find photo in book near Cassandra</label>
+            <label><input type="checkbox" data-item="4-7"> Find photo on closet door</label>
+            <label><input type="checkbox" data-item="4-8"> Return to photo string</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 5 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">05</div>
+          <div class="chapter-info">
+            <h3>Shopping Cart Bomb</h3>
+            <p>🏆 Smooth Shopper — No crashes</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Steer the shopping cart downhill. Use left stick to steer, shoulder buttons to balance. Stay center, avoid cars.</p>
+          <div class="checklist" data-chapter="5">
+            <label><input type="checkbox" data-item="5-1"> 🏆 Complete without crashing (Smooth Shopper)</label>
+            <label><input type="checkbox" data-item="5-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="5-3"> Check poster in closet</label>
+            <label><input type="checkbox" data-item="5-4"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="5-5"> Examine box on chair</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 6 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">06</div>
+          <div class="chapter-info">
+            <h3>Rockford's Headphones</h3>
+            <p>Bulletin board exploration</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <div class="checklist" data-chapter="6">
+            <label><input type="checkbox" data-item="6-1"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="6-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="6-3"> Examine bulletin board</label>
+            <label><input type="checkbox" data-item="6-4"> Interact with all pinned items</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 7 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">07</div>
+          <div class="chapter-info">
+            <h3>Debbie's Bedroom</h3>
+            <p>Previously locked room now accessible</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Head down the hallway to the room that was previously locked.</p>
+          <div class="checklist" data-chapter="7">
+            <label><input type="checkbox" data-item="7-1"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="7-2"> Examine trophies on shelf</label>
+            <label><input type="checkbox" data-item="7-3"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="7-4"> Check box to Cassandra's right</label>
+            <label><input type="checkbox" data-item="7-5"> Open the cabinet</label>
+            <label><input type="checkbox" data-item="7-6"> Look at picture on green dresser</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 8 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">08</div>
+          <div class="chapter-info">
+            <h3>Ultimate Slushie</h3>
+            <p>🏆 Grunge Metal Alchemist — Secret recipe</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <h4>Secret Recipe</h4>
+          <p>Mix equal parts: <strong>Blue Crush + Bubblegum + Lime + Orange</strong></p>
+          <div class="checklist" data-chapter="8">
+            <label><input type="checkbox" data-item="8-1"> 🏆 Make secret slushie (Grunge Metal Alchemist)</label>
+            <label><input type="checkbox" data-item="8-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="8-3"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="8-4"> Open dresser drawer</label>
+            <label><input type="checkbox" data-item="8-5"> Rearrange items, get black notebook</label>
+            <label><input type="checkbox" data-item="8-6"> Grab the ticket</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 9 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">09</div>
+          <div class="chapter-info">
+            <h3>Photobooth</h3>
+            <p>⚠️ Important dialogue — exhaust all options</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <div class="checklist" data-chapter="9">
+            <label><input type="checkbox" data-item="9-1"> Complete photobooth minigame</label>
+            <label><input type="checkbox" data-item="9-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="9-3"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="9-4"> Pick up picture on boxes</label>
+            <label><input type="checkbox" data-item="9-5"> Examine shell on blue dresser</label>
+            <label><input type="checkbox" data-item="9-6"> ⚠️ Talk to both until "should we leave"</label>
+            <label><input type="checkbox" data-item="9-7"> Interact with wardrobe</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 10 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">10</div>
+          <div class="chapter-info">
+            <h3>The Ritz Discovery</h3>
+            <p>🏆 Goodbye, Stacey's Room — Auto-unlocks</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Flashback through the forest. No extra interactions — just follow the path.</p>
+          <div class="checklist" data-chapter="10">
+            <label><input type="checkbox" data-item="10-1"> Follow the forest path</label>
+            <label><input type="checkbox" data-item="10-2"> 🏆 Goodbye, Stacey's Room (auto-unlocks)</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACT 2 -->
+    <section id="act-2">
+      <h2 class="section-title">Act 2: <span>Cassandra's Place</span></h2>
+      <p class="section-sub">Chapters 11-18 • "Matching The Drapes" Trophy</p>
+
+      <!-- Chapter 11 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">11</div>
+          <div class="chapter-info">
+            <h3>Skate to Cassandra's</h3>
+            <p>🏆 Cone Island, Baby — Hit all 10 cones</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <h4>Cone Locations</h4>
+          <div class="checklist" data-chapter="11">
+            <label><input type="checkbox" data-item="11-1"> Cones 1-3: Right of yellow dump truck</label>
+            <label><input type="checkbox" data-item="11-2"> Cone 4: Past intersection near school bus</label>
+            <label><input type="checkbox" data-item="11-3"> Cones 5-6: After semi-trailer, before construction</label>
+            <label><input type="checkbox" data-item="11-4"> Cone 7: First part of construction area</label>
+            <label><input type="checkbox" data-item="11-5"> Cones 8-9: Right side during overhead camera (tricky!)</label>
+            <label><input type="checkbox" data-item="11-6"> Cone 10: Left side after camera returns</label>
+            <label><input type="checkbox" data-item="11-7"> 🏆 Cone Island, Baby</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 12 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">12</div>
+          <div class="chapter-info">
+            <h3>Skipping Stones</h3>
+            <p>🏆 Skim Gordon — Through the tire swing</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Aim at the upper-middle of the tire swing opening. Unlimited attempts.</p>
+          <div class="checklist" data-chapter="12">
+            <label><input type="checkbox" data-item="12-1"> 🏆 Throw stone through tire (Skim Gordon)</label>
+            <label><input type="checkbox" data-item="12-2"> Use leave prompt when ready</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 13 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">13</div>
+          <div class="chapter-info">
+            <h3>Cassandra's House</h3>
+            <p>New location — many interactions</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <h4>Hallway</h4>
+          <div class="checklist" data-chapter="13">
+            <label><input type="checkbox" data-item="13-1"> Door behind you</label>
+            <label><input type="checkbox" data-item="13-2"> Portrait on wall</label>
+          </div>
+          <h4>Main Room</h4>
+          <div class="checklist" data-chapter="13">
+            <label><input type="checkbox" data-item="13-3"> Book on the right</label>
+            <label><input type="checkbox" data-item="13-4"> Board on wall</label>
+          </div>
+          <h4>Bedroom</h4>
+          <div class="checklist" data-chapter="13">
+            <label><input type="checkbox" data-item="13-5"> Tape beside bed</label>
+            <label><input type="checkbox" data-item="13-6"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="13-7"> Flower painting</label>
+            <label><input type="checkbox" data-item="13-8"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="13-9"> Picture on right wall</label>
+            <label><input type="checkbox" data-item="13-10"> Trophy in cabinet</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 14 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">14</div>
+          <div class="chapter-info">
+            <h3>Softball</h3>
+            <p>🏆 And It's Outta There! — All home runs</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Use Rockford's turn to practice. As Cassandra: push stick toward pitch location, swing when circle aligns.</p>
+          <div class="checklist" data-chapter="14">
+            <label><input type="checkbox" data-item="14-1"> Practice as Rockford</label>
+            <label><input type="checkbox" data-item="14-2"> 🏆 All home runs as Cassandra</label>
+            <label><input type="checkbox" data-item="14-3"> Interact with bed</label>
+            <label><input type="checkbox" data-item="14-4"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="14-5"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="14-6"> Check paper in bathroom</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 15 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">15</div>
+          <div class="chapter-info">
+            <h3>Toilet Paper Attack</h3>
+            <p>🏆 Triple Ply — Throw 50 rolls</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <div class="checklist" data-chapter="15">
+            <label><input type="checkbox" data-item="15-1"> 🏆 Throw 50 rolls (Triple Ply)</label>
+            <label><input type="checkbox" data-item="15-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="15-3"> Spot on wall left of Cassandra</label>
+            <label><input type="checkbox" data-item="15-4"> Talk to Cassandra</label>
+            <label><input type="checkbox" data-item="15-5"> Picture on table near bathroom</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 16 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">16</div>
+          <div class="chapter-info">
+            <h3>Floating on Sadness</h3>
+            <p>🏆 It's the Pigs, Darling — Hit 3 pig balloons</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Float backwards through surreal environments. Steer into 3 pig balloons.</p>
+          <div class="checklist" data-chapter="16">
+            <label><input type="checkbox" data-item="16-1"> 🏆 Hit 3 pig balloons</label>
+            <label><input type="checkbox" data-item="16-2"> Open trophy cabinet door</label>
+            <label><input type="checkbox" data-item="16-3"> Talk to Slater on bed</label>
+            <label><input type="checkbox" data-item="16-4"> ⚠️ Look UP at curtains above window!</label>
+            <label><input type="checkbox" data-item="16-5"> Paper behind Slater</label>
+          </div>
+          <h4>After Characters Move</h4>
+          <div class="checklist" data-chapter="16">
+            <label><input type="checkbox" data-item="16-6"> Talk to Slater (until "should we leave")</label>
+            <label><input type="checkbox" data-item="16-7"> Talk to Cassandra twice</label>
+            <label><input type="checkbox" data-item="16-8"> Open window behind Slater</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 17 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">17</div>
+          <div class="chapter-info">
+            <h3>Cassandra's Rooftop</h3>
+            <p>🏆 Instructions Not Required — Under 15 seconds</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <h4>Minimaster Assembly (Speed Run)</h4>
+          <ol style="color:var(--text-secondary);font-size:0.9rem;margin:0.5rem 0;">
+            <li>Grab Minimaster, flip with right stick</li>
+            <li>Open battery cover</li>
+            <li>Move both batteries to slots</li>
+            <li>Close cover, flip back, press power</li>
+          </ol>
+          <div class="checklist" data-chapter="17">
+            <label><input type="checkbox" data-item="17-1"> Talk to Cassandra twice (until "should we leave")</label>
+            <label><input type="checkbox" data-item="17-2"> Talk to Slater to get Minimaster</label>
+            <label><input type="checkbox" data-item="17-3"> 🏆 Assemble in under 15 seconds</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 18 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">18</div>
+          <div class="chapter-info">
+            <h3>Bodacious Cretaceous</h3>
+            <p>🏆 Don't. Move. — Take 20 photos</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Explore the abandoned dinosaur park. Take at least 20 photos before the volcano room.</p>
+          <div class="checklist" data-chapter="18">
+            <label><input type="checkbox" data-item="18-1"> 🏆 Take 20 photos (Don't. Move.)</label>
+            <label><input type="checkbox" data-item="18-2"> 🏆 Matching The Drapes (auto-unlocks)</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACT 3 -->
+    <section id="act-3">
+      <h2 class="section-title">Act 3: <span>The Hideout & Slater's</span></h2>
+      <p class="section-sub">Chapters 19-26 • "Eight Minute Odyssey" Trophy</p>
+
+      <!-- Chapter 19 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">19</div>
+          <div class="chapter-info">
+            <h3>Skateboard Explosion</h3>
+            <p>🏆 Appetite For Destruction — Destroy all</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Mash both triggers to destroy red-highlighted objects. Trophy unlocks at gumball machine in mall.</p>
+          <div class="checklist" data-chapter="19">
+            <label><input type="checkbox" data-item="19-1"> 🏆 Destroy all objects (Appetite For Destruction)</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 20 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">20</div>
+          <div class="chapter-info">
+            <h3>The Shitty Ritz</h3>
+            <p>Secret hideout — many interactions</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <h4>Starting Area</h4>
+          <div class="checklist" data-chapter="20">
+            <label><input type="checkbox" data-item="20-1"> Yellow fridge</label>
+            <label><input type="checkbox" data-item="20-2"> Poster on table</label>
+            <label><input type="checkbox" data-item="20-3"> Empty bottles on boxes</label>
+            <label><input type="checkbox" data-item="20-4"> Open window</label>
+          </div>
+          <h4>Right Side</h4>
+          <div class="checklist" data-chapter="20">
+            <label><input type="checkbox" data-item="20-5"> Whipped cream dispenser</label>
+            <label><input type="checkbox" data-item="20-6"> Radio</label>
+            <label><input type="checkbox" data-item="20-7"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="20-8"> Interact with paint cans near deck</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 21 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">21</div>
+          <div class="chapter-info">
+            <h3>Door Painting</h3>
+            <p>🏆 Paint it, Black, If You Want — Under 30 seconds</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Move to edge, hold paint, roll full strokes. You don't need 100% coverage.</p>
+          <div class="checklist" data-chapter="21">
+            <label><input type="checkbox" data-item="21-1"> 🏆 Paint door in under 30 seconds</label>
+            <label><input type="checkbox" data-item="21-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="21-3"> Interact with couch</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 22 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">22</div>
+          <div class="chapter-info">
+            <h3>Couch Moving</h3>
+            <p>🏆 Sofa King Fast — Under 30 seconds</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Control both characters with both sticks. Move right, drop when zone turns green.</p>
+          <div class="checklist" data-chapter="22">
+            <label><input type="checkbox" data-item="22-1"> 🏆 Position couch in under 30 seconds</label>
+            <label><input type="checkbox" data-item="22-2"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="22-3"> Examine ground in front of him</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 23 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">23</div>
+          <div class="chapter-info">
+            <h3>Leaf Sweeping</h3>
+            <p>🏆 Leaves That Are Green — Under 45 seconds</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Hold sweep to charge, blast from center outward. Circle turns green when clear.</p>
+          <div class="checklist" data-chapter="23">
+            <label><input type="checkbox" data-item="23-1"> 🏆 Clear leaves in under 45 seconds</label>
+            <label><input type="checkbox" data-item="23-2"> ⚠️ Talk to Slater (until "should we leave")</label>
+            <label><input type="checkbox" data-item="23-3"> Interact with slingshot on car trunk</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 24 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">24</div>
+          <div class="chapter-info">
+            <h3>Slingshot</h3>
+            <p>🏆 From The Hip — All targets under 30 seconds</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Aim just above Rockford's fingers. Hit ALL cans AND bottles.</p>
+          <div class="checklist" data-chapter="24">
+            <label><input type="checkbox" data-item="24-1"> 🏆 Hit all targets in under 30 seconds</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 25 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">25</div>
+          <div class="chapter-info">
+            <h3>Slater's House</h3>
+            <p>🏆 Front To Back — If all interactions complete</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <h4>Near Stairs (left to right)</h4>
+          <div class="checklist" data-chapter="25">
+            <label><input type="checkbox" data-item="25-1"> Red robot</label>
+            <label><input type="checkbox" data-item="25-2"> Plasma orb</label>
+            <label><input type="checkbox" data-item="25-3"> Photos on guitar amp</label>
+            <label><input type="checkbox" data-item="25-4"> Green book</label>
+            <label><input type="checkbox" data-item="25-5"> Guitar on couch</label>
+          </div>
+          <h4>Opposite Side (left to right)</h4>
+          <div class="checklist" data-chapter="25">
+            <label><input type="checkbox" data-item="25-6"> Picture on left wall</label>
+            <label><input type="checkbox" data-item="25-7"> Talk to Slater</label>
+            <label><input type="checkbox" data-item="25-8"> Wall behind Slater</label>
+            <label><input type="checkbox" data-item="25-9"> Fish tank</label>
+            <label><input type="checkbox" data-item="25-10"> Record player</label>
+          </div>
+          <h4>Final Items</h4>
+          <div class="checklist" data-chapter="25">
+            <label><input type="checkbox" data-item="25-11"> Lava lamp (right of tape player)</label>
+            <label><input type="checkbox" data-item="25-12"> Tape player</label>
+            <label><input type="checkbox" data-item="25-13"> Talk to Slater (until "should we leave")</label>
+            <label><input type="checkbox" data-item="25-14"> Minimaster on desk</label>
+            <label><input type="checkbox" data-item="25-15"> Tape on bed</label>
+            <label><input type="checkbox" data-item="25-16"> 🏆 Front To Back (if all complete)</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 26 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">26</div>
+          <div class="chapter-info">
+            <h3>Starlight Video</h3>
+            <p>🏆 Doppelbanger + Tapehead Graveyard</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Walk around as drunk Slater. Knock over cutouts and tapes.</p>
+          <h4>Cutout Locations (5 total)</h4>
+          <div class="checklist" data-chapter="26">
+            <label><input type="checkbox" data-item="26-1"> 2 cutouts at end of left aisles</label>
+            <label><input type="checkbox" data-item="26-2"> 2 cutouts on back wall</label>
+            <label><input type="checkbox" data-item="26-3"> 1 cutout near clerk</label>
+            <label><input type="checkbox" data-item="26-4"> 🏆 Doppelbanger (all 5 cutouts)</label>
+            <label><input type="checkbox" data-item="26-5"> 🏆 Tapehead Graveyard (200 tapes)</label>
+            <label><input type="checkbox" data-item="26-6"> Grab 2 blue + 1 yellow tape</label>
+            <label><input type="checkbox" data-item="26-7"> Bring tapes to clerk</label>
+            <label><input type="checkbox" data-item="26-8"> 🏆 Eight Minute Odyssey (auto-unlocks)</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACT 4 -->
+    <section id="act-4">
+      <h2 class="section-title">Act 4: <span>The Finale</span></h2>
+      <p class="section-sub">Chapters 27-30 • "Last Song" Trophy</p>
+
+      <!-- Chapter 27 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">27</div>
+          <div class="chapter-info">
+            <h3>The Run</h3>
+            <p>🏆 Well, Take A Look At You — No misses</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Auto-run sequence. Jump over obstacles, slide under low gaps. If no slide gap, jump.</p>
+          <div class="checklist" data-chapter="27">
+            <label><input type="checkbox" data-item="27-1"> 🏆 No missed jumps/slides (Well, Take A Look At You)</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 28 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">28</div>
+          <div class="chapter-info">
+            <h3>Coastal Cruise</h3>
+            <p>🏆 Banned In Massachusetts — All fireworks</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Mash both triggers to set off fireworks. Same as skateboard explosion.</p>
+          <div class="checklist" data-chapter="28">
+            <label><input type="checkbox" data-item="28-1"> 🏆 Don't miss any fireworks (Banned In Massachusetts)</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 29 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">29</div>
+          <div class="chapter-info">
+            <h3>Party at the Ritz</h3>
+            <p>🏆 Fight For Your Right — All party items</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Film with camcorder AND collect items from partygoers. High-fives don't count.</p>
+          <h4>Item Locations (in order)</h4>
+          <div class="checklist" data-chapter="29">
+            <label><input type="checkbox" data-item="29-1"> Guy in sunglasses (right) — drink</label>
+            <label><input type="checkbox" data-item="29-2"> Girl on left — drink</label>
+            <label><input type="checkbox" data-item="29-3"> Man near center — food</label>
+            <label><input type="checkbox" data-item="29-4"> Bowl behind him — keep eating</label>
+            <label><input type="checkbox" data-item="29-5"> Girl in black (facing house) — drink</label>
+            <label><input type="checkbox" data-item="29-6"> Bathtub near house — keep drinking</label>
+            <label><input type="checkbox" data-item="29-7"> Girl on deck (left of door) — drink</label>
+            <label><input type="checkbox" data-item="29-8"> Girl near sunglasses guy — final drink</label>
+            <label><input type="checkbox" data-item="29-9"> 🏆 Fight For Your Right</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter 30 -->
+      <div class="chapter-item">
+        <div class="chapter-header">
+          <div class="chapter-num">30</div>
+          <div class="chapter-info">
+            <h3>Finale</h3>
+            <p>🏆 Last Song — Complete the game</p>
+          </div>
+          <div class="chapter-toggle">▼</div>
+        </div>
+        <div class="chapter-body">
+          <p>Linear conclusion. Enjoy the ending! Hold skip button to speed through credits.</p>
+          <div class="checklist" data-chapter="30">
+            <label><input type="checkbox" data-item="30-1"> Watch the finale</label>
+            <label><input type="checkbox" data-item="30-2"> 🏆 Last Song (after credits)</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLEANUP SECTION -->
+    <section id="cleanup">
+      <h2 class="section-title">Post-Game <span>Cleanup</span></h2>
+      <p class="section-sub">Missing "Front to Back"? Check these commonly missed spots</p>
+
+      <div class="sidebar-box" style="position:static;max-width:100%;">
+        <h4>🔄 Commonly Missed Interactions</h4>
+        <div class="checklist" data-chapter="cleanup">
+          <label><input type="checkbox" data-item="cleanup-1"> Ch.2: Closed door in hallway (Debbie's room)</label>
+          <label><input type="checkbox" data-item="cleanup-2"> Ch.9: Shell on dresser + exhaust all dialogue</label>
+          <label><input type="checkbox" data-item="cleanup-3"> Ch.16: Curtains ABOVE the window</label>
+          <label><input type="checkbox" data-item="cleanup-4"> Ch.16: Exhaust Slater's dialogue completely</label>
+          <label><input type="checkbox" data-item="cleanup-5"> Ch.17: Exhaust Cassandra's dialogue</label>
+          <label><input type="checkbox" data-item="cleanup-6"> Ch.23: Exhaust Slater's dialogue at Ritz</label>
+          <label><input type="checkbox" data-item="cleanup-7"> Ch.25: Interact with tape player so Slater moves</label>
+        </div>
+        <p style="color:var(--text-secondary);font-size:0.85rem;margin-top:1rem;">If still missing, replay each bedroom section from the start and talk to Cassandra/Slater whenever they have new dialogue.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>📼 <strong>Mixtape Guide</strong> — Fan-made walkthrough site. Not affiliated with Beethoven & Dinosaur or Annapurna Interactive.</div>
+      <div>
+        <a href="index.html">Home</a> ·
+        <a href="walkthrough.html">Walkthrough</a> ·
+        <a href="characters.html">Characters</a> ·
+        <a href="tips.html">Trophies</a>
+      </div>
+      <div style="color:#555;">Content may contain spoilers. Mixtape © Beethoven & Dinosaur / Annapurna Interactive.</div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
